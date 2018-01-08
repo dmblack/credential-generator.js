@@ -1,0 +1,17 @@
+{
+  "name": "credential-generator",
+  "version": "1.0.0",
+  "description": "Assists in the generation of passwords, and usernames, using a similar to apple style.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "credential-generator": "./index.js"
+  },
+  "author": "Dustyn Blackmore",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.12.2"
+  }
+}
