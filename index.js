@@ -40,8 +40,8 @@ function makeUsername() {
   return getRandomString(3) + '-' + getRandomString(3) + '-' + getRandomString(3) + '-' + getRandomString(3);
 }
 
-// Handle no arguments (Default)
-if (!program.password && !program.password) {
+// Handle no username or password specific arguments (Default)
+if (!program.password && !program.username) {
   console.log('Username: ' + makeUsername());
   console.log('Password: ' + makePassword());
 } else {
