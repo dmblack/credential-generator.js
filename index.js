@@ -46,10 +46,10 @@ if (!program.password && !program.username) {
   console.log('Password: ' + makePassword());
 } else {
   // Handle specific arguments.
-  if (program.password) {
-    console.log('Password: ' + makePassword());
-  }
   if (program.username) {
     console.log('Username: ' + makeUsername());
+  }
+  if (program.password) {
+    console.log('Password: ' + makePassword());
   }
 }
